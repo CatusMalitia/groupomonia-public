@@ -1,0 +1,12 @@
+.buttonMenuSettings {
+    width: 96%;
+    min-height: 70px;
+    margin-left: 2%;
+    margin-top: 20px;
+    background-color: #ffd7d7;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    color: #4e5166;
+}

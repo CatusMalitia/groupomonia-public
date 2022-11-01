@@ -1,0 +1,231 @@
+.alertInfoMinLetterInvisible {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 28%;
+    left: -60%;
+    visibility: hidden;
+}
+
+.alertInfoArrowInvisible {
+    position: absolute;
+    top: 23%;
+    right: -6%;
+    width: 30px;
+    height: 30px;
+    visibility: hidden;
+}
+
+.alertInfoFirstNameMinLetterVisible {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 29%;
+    right: 101%;
+    border: 1px solid #fd2d01;
+    background-color: #fd2d01;
+}
+
+.alertInfoFirstNameArrowVisible {
+    position: absolute;
+    top: 25%;
+    left: 95%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fd2d01;
+    background-color: #fd2d01;
+    transform: rotate(45deg);
+}
+
+.alertInfoLastNameMinLetterVisible {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 29%;
+    left: 102%;
+    border: 1px solid #fd2d01;
+    background-color: #fd2d01;
+}
+
+.alertInfoLastNameArrowVisible {
+    position: absolute;
+    top: 23%;
+    right: 95%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fd2d01;
+    background-color: #fd2d01;
+    transform: rotate(45deg);
+}
+
+.alertInfoEmailInvalideVisible {
+    width: 300px;
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 41.5%;
+    right: 101%;
+    border: 1px solid #fd2d01;
+    background-color: #fd2d01;
+}
+
+.alertInfoEmailArrowVisible {
+    position: absolute;
+    top: 24%;
+    left: 95%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fd2d01;
+    background-color: #fd2d01;
+    transform: rotate(45deg);
+}
+
+.alertInfoPasswordInvalideVisible {
+    width: 300px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 49%;
+    left: 102%;
+    border: 1px solid #fd2d01;
+    background-color: #fd2d01;
+}
+
+.alertInfoPasswordArrowVisible {
+    position: absolute;
+    top: 30%;
+    right: 95%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fd2d01;
+    background-color: #fd2d01;
+    transform: rotate(45deg);
+}
+
+.paragraphError {
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #4e5166;
+}
+
+.paragraphErrorLastName {
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #4e5166;
+}
+
+.paragraphErrorEmail {
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #4e5166;
+}
+
+.paragraphErrorPassword {
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #4e5166;
+}
+
+.alertInfoMinLetterInvisible {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 28%;
+    left: -60%;
+    visibility: hidden;
+}
+
+.alertInfoArrowInvisible {
+    position: absolute;
+    top: 23%;
+    right: -6%;
+    width: 30px;
+    height: 30px;
+    visibility: hidden;
+}
+
+.alertInfoFirstNameMinLetterVisibleModalMyProfile {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: -3%;
+    right: 52%;
+    border: 1px solid #fd2d01;
+    background-color: #fd2d01;
+}
+
+.alertInfoFirstNameArrowVisibleModalMyProfile {
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fd2d01;
+    background-color: #fd2d01;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.alertInfoLastNameMinLetterVisibleModalMyProfile {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: -3%;
+    left: 52%;
+    border: 1px solid #fd2d01;
+    background-color: #fd2d01;
+}
+
+.alertInfoLastNameArrowVisibleModalMyProfile {
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fd2d01;
+    background-color: #fd2d01;
+    transform: rotate(45deg);
+    z-index: -1;
+}

@@ -1,0 +1,46 @@
+.effectCloseMenuSelect {
+    animation-name: closeMenuSelect;
+    animation-delay: 50ms;
+    animation-duration: 250ms;
+    animation-fill-mode: forwards;
+    transform-origin: left;
+}
+
+@keyframes closeMenuSelect {
+    0% {
+        transform: scaleX(1);
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scaleX(0);
+        opacity: 0;
+    }
+}
+
+.effectOpenMenuSelect {
+    animation-name: openMenuSelect;
+    animation-duration: 250ms;
+    animation-fill-mode: forwards;
+    transform-origin: left;
+}
+
+@keyframes openMenuSelect {
+    0% {
+        transform: scaleX(0);
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}

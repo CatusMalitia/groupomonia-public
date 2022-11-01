@@ -1,0 +1,43 @@
+const User = require("../models/User");
+const Post = require("../models/Post");
+
+exports.like = (req, res) => {
+  Post.findOne({ _id: req.params.id })
+    .then((object) => {
+      if (
+        !object.usersLiked.includes(req.body.userId) &&
+        req.body.likes === 1
+      ) {
+        Post.updateOne(
+          { _id: req.params.id },
+          {
+            $inc: { likes: 1 },
+            $push: { usersLiked: req.body.userId },
+          }
+        )
+          .then(() =>
+            res
+              .status(200)
+              .json({ message: "Le like de l'utilisateur est bien incrémenté" })
+          )
+          .catch((error) => res.status(404).json({ error }));
+      }
+      if (object.usersLiked.includes(req.body.userId) && req.body.likes === 0) {
+        Post.updateOne(
+          { _id: req.params.id },
+          {
+            $inc: { likes: -1 },
+            $pull: { usersLiked: req.body.userId },
+          }
+        )
+          .then(() =>
+            res
+              .status(200)
+              .json({ message: "Le like de l'utilisateur est bien décrémenté" })
+          )
+          .catch((error) => res.status(404).json({ error }));
+      }
+    })
+    .catch((error) => res.status(404).json({ error }));
+  console.log(req.body);
+};

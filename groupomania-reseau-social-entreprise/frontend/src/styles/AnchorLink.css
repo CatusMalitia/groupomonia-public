@@ -1,0 +1,11 @@
+.noDecoration,
+.noDecoration:hover,
+.noDecoration:focus,
+.noDecoration:visited,
+.noDecoration:link,
+.noDecoration:active {
+    text-decoration: none;
+    color: #4e5166;
+    box-shadow: none;
+    outline: none;
+}

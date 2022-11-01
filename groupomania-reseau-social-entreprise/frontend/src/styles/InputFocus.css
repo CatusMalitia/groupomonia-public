@@ -1,0 +1,5 @@
+.styleInputFocus {
+    filter: brightness(95%);
+    outline: 1px solid #4e5166;
+    opacity: 0.7;
+}

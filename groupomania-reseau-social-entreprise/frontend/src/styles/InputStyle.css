@@ -1,0 +1,55 @@
+.inputStyle {
+    width: 90%;
+    height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 60px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    color: #4e5166;
+    border: 1px solid #4e5166;
+    border-radius: 6px;
+    background-color: #ffd7d7;
+}
+
+.inputNameStyle {
+    width: 46%;
+    height: 36px;
+    position: relative;
+    top: 60px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    color: #4e5166;
+    border: 1px solid #4e5166;
+    border-radius: 6px;
+    background-color: #ffd7d7;
+}
+
+.inputSignUpStyle {
+    width: 100%;
+    height: 36px;
+    position: relative;
+    top: 60px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    color: #4e5166;
+    border: 1px solid #4e5166;
+    border-radius: 6px;
+    background-color: #ffd7d7;
+}
+
+.inputDateStyle {
+    width: 30%;
+    height: 36px;
+    margin-top: -40px;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    color: #4e5166;
+    border: 1px solid #4e5166;
+    border-radius: 6px;
+    background-color: #ffd7d7;
+}

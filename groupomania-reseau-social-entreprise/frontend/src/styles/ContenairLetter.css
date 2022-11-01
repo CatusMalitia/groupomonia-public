@@ -1,0 +1,11 @@
+.contenairLetterHome {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+.contenairLetterProfilePage {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
